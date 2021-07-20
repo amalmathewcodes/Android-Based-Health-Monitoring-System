@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\activity_home.xml" />
+        <ignore path="res\layout\activity_login.xml" />
+        <ignore path="res\layout\activity_login_mu.xml" />
+        <ignore path="res\layout\dialog_report.xml" />
+    </issue>
+    <issue id="TargetVersion">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+</lint>

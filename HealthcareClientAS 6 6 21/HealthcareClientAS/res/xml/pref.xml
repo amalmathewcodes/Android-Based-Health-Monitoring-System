@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<PreferenceCategory
+		android:title="Patient Profile" >
+		
+			<EditTextPreference
+				android:title="Patient Name"
+				android:summary="Name of the Patient"
+				android:key="PName" />
+            
+			<EditTextPreference
+			    android:title="Age"
+			    android:summary="Age of the Patient"
+			    android:key="Age" />
+			
+			<EditTextPreference
+			    android:title="Address"
+			    android:summary="Address of the Patient"
+			    android:key="Address" />
+			
+			<EditTextPreference
+				android:title="Mobile Number"
+				android:summary="Mobile number of the Trusted Agent in health center"
+				android:key="mobNo" />
+			
+			<EditTextPreference
+				android:title="Email"
+				android:summary="Email id of the Trusted Agent in health center"
+				android:key="eMail" />
+			
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="Login Info" >
+			
+	    <EditTextPreference
+			android:title="User Name"
+			android:summary="User Name of the Trusted Authority"
+			android:key="uName" />
+                
+		<EditTextPreference
+			android:title="Password"
+			android:summary="Password to access the report"
+			android:key="Pass" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="Emergency" >
+		
+	    <EditTextPreference
+			android:title="Emergency No"
+			android:summary="This number will be automatically called in emergecny situation"
+			android:key="eNo" />
+	    
+	</PreferenceCategory>
+</PreferenceScreen>
+        

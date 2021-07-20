@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_register"
+        android:orderInCategory="100"
+        android:title="Register"/>
+    
+    <item
+		android:id="@+id/menu_host"
+        android:title="Config Host"
+        android:orderInCategory="100" />
+
+</menu>

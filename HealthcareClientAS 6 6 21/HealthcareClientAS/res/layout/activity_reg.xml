@@ -1,0 +1,233 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="New Medical User"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:padding="10dp" >
+        
+        <TableLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Name* "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="Your fullname" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Age"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtAge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="age"
+                    android:inputType="number"
+                    android:singleLine="true" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Address"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtAdd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="Communication Address" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Mobile"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtMob"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="Mobile number"
+                    android:inputType="number"
+                    android:singleLine="true" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="some@web.com"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Username"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtUname"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="letter a-z, A-Z" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Password*"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtPass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Emrg. No*"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF000000" />
+
+                <EditText
+                    android:id="@+id/txtEmerg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="for auto call"
+                    android:inputType="number"
+                    android:singleLine="true" />
+                
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" >
+
+                <Button
+                    android:text="Register"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:onClick="onRegister" />
+                
+                <Button 
+                    android:text="Reset"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:onClick="onReset" />
+                
+            </TableRow>
+            
+        </TableLayout>
+        
+    </ScrollView>
+    
+</RelativeLayout>
